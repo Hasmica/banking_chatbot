@@ -6,7 +6,7 @@ def main():
     client = openai
     assistant_id = "asst_TufcOXOqdLpyIYQIPNkW4E1Y"
 
-    openai.api_key="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"
+    openai.api_key=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
 
     if "start_chat" not in st.session_state:
         st.session_state.start_chat = False
